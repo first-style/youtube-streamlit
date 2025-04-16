@@ -6,17 +6,17 @@ import time
 st.title('Streamlit Study')
 
 st.write('プレぐれすばーの表示')
-'Start ! ! ! '
+# 'Start ! ! ! '
 
-lateest_interation = st.empty()
-bar = st.progress(0)
+# lateest_interation = st.empty()
+# bar = st.progress(0)
 
-for i in range(100):
-    lateest_interation.text(f'Interation {i+1}')
-    bar.progress(i+1)
-    time.sleep(0.1)
+# for i in range(100):
+#     lateest_interation.text(f'Interation {i+1}')
+#     bar.progress(i+1)
+#     time.sleep(0.1)
 
-'Done ! ! !'
+# 'Done ! ! !'
 
 
 # df = pd.DataFrame({
